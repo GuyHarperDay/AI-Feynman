@@ -46,7 +46,7 @@
 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
 	character*60 comline, functions, ops, formula
 	integer arities(21), nvar, nvarmax, nmax, lnblnk
-	parameter(nvarmax=20, nmax=5000000)
+	parameter(nvarmax=120, nmax=5000000)
 	real*8 f, newloss, minloss, maxloss, rmsloss, limit
         real*8 xy0(nvarmax+1,nmax), xy(nvarmax+1,nmax), offset(nmax), offst, bestoffset
         real*8 epsilon, DL, nu, z
